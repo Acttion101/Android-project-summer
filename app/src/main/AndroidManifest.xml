@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.my1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.My1">
+        <activity android:name=".EditProfileActivity"></activity>
+        <activity android:name=".CategoryActivity"></activity>
+        <activity android:name=".CartActivity" />
+        <activity android:name=".RecyclerActivity"></activity>
+        <activity android:name=".Retrofit2Client" />
+        <activity android:name=".ListViewActivity" />
+        <activity android:name=".WebViewActivity" />
+        <activity android:name=".MainActivity3" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".RegisterActivity" >
+
+
+        </activity>
+        <activity android:name=".RegisterActivity2" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
